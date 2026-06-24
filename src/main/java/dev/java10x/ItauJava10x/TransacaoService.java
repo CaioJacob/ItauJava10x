@@ -1,8 +1,11 @@
 package dev.java10x.ItauJava10x;
 
+import org.springframework.stereotype.Service;
+
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
+@Service
 public class TransacaoService {
 
     public void validarTransacao(TransacaoRequest transacaoRequest) {
@@ -19,5 +22,6 @@ public class TransacaoService {
     //DATA E HORA PRESENTES (BODY NAO PODE SER VAZIO)
 
     }
+    //VALOR PRESENTE
 
 }
